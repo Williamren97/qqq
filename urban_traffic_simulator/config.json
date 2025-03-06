@@ -1,0 +1,38 @@
+{
+    "name": "Urban Traffic Simulator",
+    "ip": "0.0.0.0",
+    "port": 8765,
+    "buttons": [
+        {
+            "name": "Add Car",
+            "label": "Add Car",
+            "style": {
+                "background-color": "#4CAF50",
+                "color": "white",
+                "border-radius": "4px"
+            }
+        },
+        {
+            "name": "Reset",
+            "label": "Reset",
+            "style": {
+                "background-color": "#f44336",
+                "color": "white",
+                "border-radius": "4px"
+            }
+        },
+        {
+            "name": "Toggle Traffic Lights",
+            "label": "Toggle Traffic Lights",
+            "style": {
+                "background-color": "#008CBA",
+                "color": "white",
+                "border-radius": "4px"
+            }
+        }
+    ],
+    "description": "A simulation of urban traffic with autonomous vehicles and traffic signals",
+    "background": "#87CEEB",
+    "width": 1000,
+    "height": 1000
+}
