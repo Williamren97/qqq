@@ -31,13 +31,9 @@ A multi-agent traffic simulation system built using the Enviro framework to simu
    git clone https://github.com/yourusername/smart-traffic-simulator.git
    cd smart-traffic-simulator
 
-Start the Enviro environment using Docker:
+Start the Enviro environment using Docker (Windows):
 bash
 
-# Linux/macOS
-docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.61 bash
-
-# Windows
 docker run -p80:80 -p8765:8765 -v C:\path\to\project:/source -it klavins/enviro:v1.61 bash
 
 Inside the Docker container, compile and run the project:
@@ -107,7 +103,6 @@ Enviro: A multi-agent simulation environment
 
 Acknowledgements
 Thanks to the Klavins Lab for providing the Enviro and Elma frameworks.
-
 License
 MIT License
 
