@@ -36,6 +36,9 @@ bash
 
 docker run -p80:80 -p8765:8765 -v C:\path\to\project:/source -it klavins/enviro:v1.61 bash
 
+
+docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.61 bash
+
 Inside the Docker container, compile and run the project:
 bash
 
