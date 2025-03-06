@@ -1,0 +1,80 @@
+{
+    "name": "Simple Traffic Simulator",
+    "ip": "0.0.0.0",
+    "port": 8765,
+    "buttons": [
+        {
+            "label": "Add Car",
+            "style": { "background": "#4CAF50", "color": "white" },
+            "id": "add_car"
+        },
+        {
+            "label": "Toggle Lights",
+            "style": { "background": "#f44336", "color": "white" },
+            "id": "toggle_light"
+        },
+        {
+            "label": "Reset Cars",
+            "style": { "background": "#2196F3", "color": "white" },
+            "id": "reset_cars"
+        }
+    ],
+    "agents": [
+        {
+            "definition": "defs/simulator.json",
+            "style": { "fill": "transparent", "stroke": "none" },
+            "position": {
+                "x": 0, 
+                "y": 0, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/car.json",
+            "style": { "fill": "blue", "stroke": "black" },
+            "position": {
+                "x": -120, 
+                "y": 0, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/car.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": {
+                "x": 120, 
+                "y": 0, 
+                "theta": 3.14
+            }
+        },
+        {
+            "definition": "defs/traffic_light.json",
+            "style": { "fill": "black", "stroke": "black" },
+            "position": {
+                "x": 0, 
+                "y": 0, 
+                "theta": 0
+            }
+        }
+    ],
+    "statics": [
+        {
+            "style": { "fill": "#333333", "stroke": "none" },
+            "shape": [
+                { "x": -400, "y": -10 },
+                { "x": 400, "y": -10 },
+                { "x": 400, "y": 10 },
+                { "x": -400, "y": 10 }
+            ]
+        },
+        {
+            "style": { "fill": "#333333", "stroke": "none" },
+            "shape": [
+                { "x": -10, "y": -400 },
+                { "x": 10, "y": -400 },
+                { "x": 10, "y": 400 },
+                { "x": -10, "y": 400 }
+            ]
+        }
+    ]
+}

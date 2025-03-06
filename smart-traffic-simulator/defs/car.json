@@ -1,0 +1,25 @@
+{
+    "name": "Car",
+    "type": "dynamic",
+    "description": "An autonomous car that navigates the city grid",
+    "shape": [
+        { "x": -10, "y": 5 },
+        { "x": 10, "y": 5 },
+        { "x": 10, "y": -5 },
+        { "x": -10, "y": -5 }
+    ],
+    "friction": {
+      "collision": 2,
+      "linear": 10,
+      "rotational": 200
+    },
+    "sensors": [
+        {
+            "type": "range",
+            "location": { "x": 10, "y": 0 },
+            "direction": 0
+        }
+    ],
+    "mass": 0.2,    
+    "controller": "lib/car.so"
+}

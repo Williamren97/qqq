@@ -1,0 +1,19 @@
+{
+    "name": "TrafficLight",
+    "type": "static",
+    "description": "A traffic light that controls flow at intersections",
+    "shape": [
+        { "x": -5, "y": 5 },
+        { "x": 5, "y": 5 },
+        { "x": 5, "y": -5 },
+        { "x": -5, "y": -5 }
+    ],
+    "friction": {
+      "collision": 0,
+      "linear": 0,
+      "rotational": 0
+    },
+    "sensors": [],
+    "mass": 0,    
+    "controller": "lib/traffic_light.so"
+}

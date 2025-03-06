@@ -1,0 +1,19 @@
+{
+    "name": "Simulator",
+    "type": "static",
+    "description": "Manages the traffic simulation",
+    "shape": [
+        { "x": -1, "y": 1 },
+        { "x": 1, "y": 1 },
+        { "x": 1, "y": -1 },
+        { "x": -1, "y": -1 }
+    ],
+    "friction": {
+      "collision": 0,
+      "linear": 0,
+      "rotational": 0
+    },
+    "sensors": [],
+    "mass": 0,    
+    "controller": "lib/simulator.so"
+}
